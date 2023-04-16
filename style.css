@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,600;1,800&family=Ubuntu:ital,wght@0,500;0,700;1,700&display=swap');
+
+*{
+    margin: 0px;
+}
+
+.first-container{
+    background-image: url("images/dustbin.jpg");
+	padding: 120px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+
+}
+.spacing{
+    letter-spacing: 7px;
+}
+.secondtext{
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    
+}
+.center{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading{
+    font-size: 80px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.frontPagePara{
+    color: white;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: BOLDER;
+}
+.cardTextMajor{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.spacer{
+    padding:50px
+}
+.card{
+    width:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card img{
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+	margin: auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+:root {
+	--font: "Inter", sans-serif;
+	--red: #4d8975;
+	--black: #292929;
+	--white: #fbfbfb;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/* SEARCH BAR CONTAINER */
+.search-local {
+    margin-top: 25px;
+	width: 100%;
+	max-width: 600px;
+	display: flex;
+	align-items: center;
+	column-gap: 2rem;
+	padding-left: 2rem;
+	background: var(--white);
+	border-radius: 2px;
+	min-height: 55px;
+	height: 55px;
+	
+	border-right: none;
+}
+
+/* ICON */
+.icon {
+	color: var(--red);
+	font-size: 3.5rem;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.icon:hover {
+	animation: funny-icon 0.4s ease-in-out;
+}
+
+@keyframes funny-icon {
+	0% {
+		scale: 1;
+	}
+
+	50% {
+		scale: 0.8;
+		transform-origin: bottom;
+		transform: rotate(-15deg);
+	}
+
+	100% {
+		scale: 1;
+	}
+}
+
+/* INPUT */
+.search-local input {
+	height: 100%;
+	width: 100%;
+	flex: 1 1 25rem;
+	background: var(--white);
+	display: flex;
+	outline: none;
+	border: none;
+	color: var(--black);
+	font-size: 15px;
+}
+
+input[type="text"]::placeholder {
+	color: var(--black);
+	font-size: 24px;
+}
+
+/* BUTTON */
+.search-local button {
+	background: var(--red);
+	border: none;
+	border-radius: 0 2px 2px 0;
+	font-weight: 500;
+	font-size: 15px;
+	height: 55px;
+	width: 18rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-align: center;
+}
+
+button a {
+	color: var(--white);
+}
+
+.search-local button .search-icon {
+	display: none;
+}
+
+.search-local button:hover {
+	letter-spacing: 0.5rem;
+}
+
+/* MEDIAS */
+@media (max-width: 575px) {
+	.search-local {
+		padding-left: 0;
+		column-gap: 0.25rem;
+	}
+
+	.search-local button {
+		width: 10rem;
+	}
+
+	button a {
+		display: none;
+	}
+
+	.search-local button .search-icon {
+		display: block;
+		margin-inline: auto;
+		color: var(--white);
+		font-size: 3rem;
+	}
+
+	input[type="text"]::placeholder {
+		font-size: 15px;
+	}
+}
+.Scraplistcard{
+    margin-left: 72px;
+    padding: 20px;
+    background-color:rgba(209, 231, 224, 50%);
+    width: 700px;
+    height: 120px;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+.thirdConatiner{
+    text-align:left;
+    
+}
+.thirdContainer h4{
+    font-size: 14px;
+    padding-right: 5px;
+}
+.thirdContainer img{
+    position: relative;
+    top: 7px;
+
+}
+.places img{
+    height: 80px;
+    width: 80px;
+    position:relative;
+    left:10px;
+
+}
+.right-section{
+    align-items: center;
+    max-width: 40%;
+    margin-right: 10px;
+}
+.thirdContainer h2{
+    padding-bottom: 24px;
+    display: inline-block;
+    padding-left:  72px;
+    padding-right: 400px;
+    font-size: 24px;
+    color: black;
+    font: "Inter", sans-serif;
+    text-align: left;
+    margin: auto;
+
+}
+.Scraplistcard img{
+    align-items: left;
+    opacity: 1;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.cardHeading{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: -50px;
+    right: -12px;
+    font-style: normal;
+    padding-right: 150px;
+    display: inline-block;
+}
+.cardPara{
+    display: inline-block;
+    max-width: 300px;
+    position: relative;
+    top: -50px;
+    right: -100px;
+    font-size: 16px;
+
+}
+.btn{
+    background-color: #4d8975;
+    width: 100px;
+    height: 45px;
+    border: none;
+    color: white;
+    position: relative;
+    top: -70px;
+    right:-250px;
+
+}
+.line{
+    display: inline-block;
+
+}
+li{
+    list-style: none;
+}
+.col0{
+    display: inline-block;
+}
+.col2{
+    display: inline-block;
+
+}
+.col3{
+    display: inline-block;
+}
+.footer{
+    
+}

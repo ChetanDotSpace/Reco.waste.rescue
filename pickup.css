@@ -1,0 +1,90 @@
+.Pickup-main-container{
+    display: flex;
+    margin: 0em 9em;
+    margin-top: 2em;
+}
+
+.left-side{
+    margin-top: 50px;   
+}
+
+label{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.date-time{
+    display: flex;
+}
+
+.date {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    background-color: #D1E7E0;
+    border: none;
+    border-radius: 0 8px 0 8px;
+    box-shadow:1px 1px rgb(208, 208, 208);
+    padding: 5px;
+}
+
+#address-input{
+    width: 430px;
+    height: 40px;
+    
+}
+
+.weight-year{
+    display: flex;
+}
+
+.landmark-zipcode{
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.photo-1{
+    width: 40vw;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.photo-2{
+    width: 17vw;
+    height: 250px;
+    margin-left: 300px;
+}
+.img-2{
+    position: relative;
+    z-index: -1;
+    margin-top: -480px;
+    margin-left: 90px;
+}
+
+
+/* button css */
+
+.button {
+    border: 0;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D1E7E0(70, 210, 210);
+    padding: 10px 30px;
+    margin-bottom: 50px;
+    margin-left: 140px;
+
+}
+
+.button:hover {
+    background-color: #D1E7E0(43, 165, 165)
+}
+

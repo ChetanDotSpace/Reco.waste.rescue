@@ -1,0 +1,39 @@
+.main-heading {
+   font-family:"Inter";
+   font-style:normal;
+   font-weight:600;
+   font-size:80px;
+   line-height:97px;
+   color:#ffffff;
+   
+
+}
+.main-paragraph {
+    font-family:"Inter";
+    font-style:normal;
+    font-weight:300;
+    font-size:30px;
+    line-height:36px;
+    letter-spacing: 0.08em;
+    color:#000000;
+}
+.second-paragraph {
+    font-family:"Inter";
+    font-style:normal;
+    font-weight:600;
+    font-size:30px;
+    line-height:36px;
+    letter-spacing: 0.08em;
+    color:#4D8975;
+}
+.bg-container {
+    text-align:center;
+    height:600px;
+    left:0px;
+    top:0px;
+    width:1441px;
+}
+.main-image {
+    background-size:cover;
+    padding:2px;
+}

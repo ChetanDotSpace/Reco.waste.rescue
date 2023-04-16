@@ -1,0 +1,42 @@
+.bg-top-container {
+    background-color:#4d8975;
+    background-size:cover;
+    text-align:center;
+    height:100vh;
+}
+.main-heading {
+    position:absolute;
+    left:7.34%;
+    right:82.58%;
+    top:3.75%;
+    bottom:88.19%;
+    font-family:"inter";
+    font-style:normal;
+    font-weight:500;
+    font-size:48px;
+    line-height:58px;
+    color:#ffffff;
+}
+.bg-container {
+    position:absolute;
+    top:150px;
+    left:200px;
+    right:100px;
+    bottom:100px;
+    background-color:#ffffff;
+    border-radius:20px;
+    text-align:center;
+
+  }
+  .second-heading {
+    font-family: "Inter";
+    font-style:normal;
+    font-weight:800;
+    font-size:24px;
+    color:#000000;
+    width: 212px;
+    height:29px;
+    left: 534px;
+    top: 105px;
+
+  }
